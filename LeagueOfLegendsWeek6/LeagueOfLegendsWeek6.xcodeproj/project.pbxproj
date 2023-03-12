@@ -12,6 +12,7 @@
 		34084D0629BD580300E62E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34084D0429BD580300E62E92 /* Main.storyboard */; };
 		34084D0829BD580700E62E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34084D0729BD580700E62E92 /* Assets.xcassets */; };
 		34084D0B29BD580700E62E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34084D0929BD580700E62E92 /* LaunchScreen.storyboard */; };
+		34084D1929BD594A00E62E92 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34084D1829BD594A00E62E92 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		34084D0729BD580700E62E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34084D0A29BD580700E62E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34084D0C29BD580700E62E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34084D1829BD594A00E62E92 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,9 @@
 		34084CFD29BD580300E62E92 /* LeagueOfLegendsWeek6 */ = {
 			isa = PBXGroup;
 			children = (
+				34084D1529BD592B00E62E92 /* Models */,
+				34084D1329BD58E900E62E92 /* UI */,
 				34084D1229BD581700E62E92 /* SupportingFiles */,
-				34084D0429BD580300E62E92 /* Main.storyboard */,
-				34084D0929BD580700E62E92 /* LaunchScreen.storyboard */,
 			);
 			path = LeagueOfLegendsWeek6;
 			sourceTree = "<group>";
@@ -64,12 +66,37 @@
 		34084D1229BD581700E62E92 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				34084D0929BD580700E62E92 /* LaunchScreen.storyboard */,
 				34084D0029BD580300E62E92 /* SceneDelegate.swift */,
 				34084D0C29BD580700E62E92 /* Info.plist */,
 				34084D0729BD580700E62E92 /* Assets.xcassets */,
 				34084CFE29BD580300E62E92 /* AppDelegate.swift */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		34084D1329BD58E900E62E92 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				34084D1429BD58F200E62E92 /* Characters List */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		34084D1429BD58F200E62E92 /* Characters List */ = {
+			isa = PBXGroup;
+			children = (
+				34084D0429BD580300E62E92 /* Main.storyboard */,
+			);
+			path = "Characters List";
+			sourceTree = "<group>";
+		};
+		34084D1529BD592B00E62E92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34084D1829BD594A00E62E92 /* Character.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34084D1929BD594A00E62E92 /* Character.swift in Sources */,
 				34084CFF29BD580300E62E92 /* AppDelegate.swift in Sources */,
 				34084D0129BD580300E62E92 /* SceneDelegate.swift in Sources */,
 			);
