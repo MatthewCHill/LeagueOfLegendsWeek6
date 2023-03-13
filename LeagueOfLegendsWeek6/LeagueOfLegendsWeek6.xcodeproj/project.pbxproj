@@ -15,6 +15,7 @@
 		34084D1929BD594A00E62E92 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34084D1829BD594A00E62E92 /* Character.swift */; };
 		34084D1C29BD5BC100E62E92 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34084D1B29BD5BC100E62E92 /* NetworkError.swift */; };
 		34084D1E29BD5C1B00E62E92 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34084D1D29BD5C1B00E62E92 /* APIService.swift */; };
+		34084D2029BF5F2E00E62E92 /* CharacterListEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34084D1F29BF5F2E00E62E92 /* CharacterListEndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		34084D1829BD594A00E62E92 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		34084D1B29BD5BC100E62E92 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		34084D1D29BD5C1B00E62E92 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		34084D1F29BF5F2E00E62E92 /* CharacterListEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListEndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				34084D1B29BD5BC100E62E92 /* NetworkError.swift */,
 				34084D1D29BD5C1B00E62E92 /* APIService.swift */,
+				34084D1F29BF5F2E00E62E92 /* CharacterListEndPoint.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				34084D1929BD594A00E62E92 /* Character.swift in Sources */,
 				34084D1E29BD5C1B00E62E92 /* APIService.swift in Sources */,
+				34084D2029BF5F2E00E62E92 /* CharacterListEndPoint.swift in Sources */,
 				34084D1C29BD5BC100E62E92 /* NetworkError.swift in Sources */,
 				34084CFF29BD580300E62E92 /* AppDelegate.swift in Sources */,
 				34084D0129BD580300E62E92 /* SceneDelegate.swift in Sources */,
